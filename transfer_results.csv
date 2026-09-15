@@ -1,0 +1,19 @@
+model,features,scenario,R2,RMSE
+Gradient boosting,proxy   (T_soll + drivers),same reactor (sanity),0.9334613772248452,7.118171130018524
+Gradient boosting,proxy   (T_soll + drivers),scale-up: dip x2,0.8964870033728454,9.028387198377075
+Gradient boosting,proxy   (T_soll + drivers),scale-up: dip x2 + 8 K offset,0.7062805808303572,15.081608315778407
+Gradient boosting,physics (T_ist  + drivers),same reactor (sanity),0.9379649881593067,6.873057160036417
+Gradient boosting,physics (T_ist  + drivers),scale-up: dip x2,0.9394304551729262,6.906211759846093
+Gradient boosting,physics (T_ist  + drivers),scale-up: dip x2 + 8 K offset,0.9134239634482914,8.188044177143954
+Gradient boosting,all     (both T + noise),same reactor (sanity),0.935427128968018,7.01223672931604
+Gradient boosting,all     (both T + noise),scale-up: dip x2,0.9197375089917968,7.950035222360142
+Gradient boosting,all     (both T + noise),scale-up: dip x2 + 8 K offset,0.8169471786237282,11.906100405575492
+Gaussian process,proxy   (T_soll + drivers),same reactor (sanity),0.965367479940002,5.135391622023315
+Gaussian process,proxy   (T_soll + drivers),scale-up: dip x2,0.9169268192380684,8.088037483984616
+Gaussian process,proxy   (T_soll + drivers),scale-up: dip x2 + 8 K offset,0.7061917913260396,15.083887680463029
+Gaussian process,physics (T_ist  + drivers),same reactor (sanity),0.9741298448875417,4.438446990483817
+Gaussian process,physics (T_ist  + drivers),scale-up: dip x2,0.9732743661863082,4.5875070262124975
+Gaussian process,physics (T_ist  + drivers),scale-up: dip x2 + 8 K offset,0.9689437847787369,4.904057922511676
+Gaussian process,all     (both T + noise),same reactor (sanity),0.9542519169541069,5.902255036308996
+Gaussian process,all     (both T + noise),scale-up: dip x2,0.9514543191363269,6.182840369915489
+Gaussian process,all     (both T + noise),scale-up: dip x2 + 8 K offset,0.9342789253074277,7.13400904213087
